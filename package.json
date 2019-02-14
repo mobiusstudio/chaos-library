@@ -2,10 +2,10 @@
   "name": "chaos-library",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "build": "npx babel-node bin/build",
-    "test": "NODE_ENV=test mocha --require @babel/register"
+    "test": "NODE_ENV=test mocha --require @babel/register",
+    "prepare": "npx babel src --out-dir lib"
   },
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
@@ -22,22 +22,20 @@
     "@babel/preset-env": "^7.2.3",
     "@babel/register": "^7.0.0",
     "babel-eslint": "^10.0.1",
-    "babel-loader": "^8.0.4",
     "chai": "^4.2.0",
     "eslint": "^5.11.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
-    "mocha": "^5.2.0",
-    "webpack": "^4.29.3"
+    "mocha": "^5.2.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mobiusstudio/ymir-codegen.git"
+    "url": "git+https://github.com/mobiusstudio/chaos-library.git"
   },
   "author": "licetus",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mobiusstudio/ymir-codegen/issues"
+    "url": "https://github.com/mobiusstudio/chaos-library/issues"
   },
-  "homepage": "https://github.com/mobiusstudio/ymir-codegen#readme"
+  "homepage": "https://github.com/mobiusstudio/chaos-library#readme"
 }

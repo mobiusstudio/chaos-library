@@ -1,4 +1,4 @@
-import { typeMap as T } from '../src/libs/types'
+import { typeMap as T } from '../src/types'
 import { check } from './utils'
 
 describe('========== Id ==========', () => {

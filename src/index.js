@@ -1,2 +1,2 @@
-export * from './libs/types'
-export * from './libs/schema'
+export * from './types'
+export * from './schema'

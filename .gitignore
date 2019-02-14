@@ -1,6 +1,5 @@
 # Customize
-output/
-ymir.config.json
+lib/
 *.DS_Store
 
 # Logs
