@@ -1,7 +1,7 @@
 {
   "name": "chaos-library",
   "version": "0.0.1",
-  "description": "",
+  "description": "base schema class & type map for Ymir",
   "main": "lib/index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha --require @babel/register",

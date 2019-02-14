@@ -1,32 +1,13 @@
-# ymir-codegen
+# chaos-library
 
+# base schema class & type map for Ymir
 
-1. 
-```
-cd ymir-codegen
-```
-```
-npm run build -- [modelName/apiName/dbName]
-```
-or
-```
-npm run build -- [modelName/dbName] [apiName]
-```
-or
-```
-npm run build -- [modelName] [apiName] [dbName]
-```
+- ColumnBase
+- TableBase
+- SchemaBase
 
-2. 
-```
-cd modelName-models
-npm install
-npm initdb
-```
+- SchemaRules
 
-3. 
-```
-cd apiName-api
-npm install
-npm start
-```
+- typeMap
+- types
+- find(typename)
