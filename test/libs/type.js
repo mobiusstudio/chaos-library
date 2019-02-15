@@ -18,6 +18,6 @@ export const attributes = {
   swt: {
     def: 'default: #defaultValue#',
     req: 'required: true',
-    sep: ',\n',
+    sep: ',\n  ',
   },
 }

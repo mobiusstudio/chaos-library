@@ -58,7 +58,7 @@ export class Swt extends Type {
       str,
       def: 'default: #defaultValue#',
       req: 'required: true',
-      sep: ',\n',
+      sep: ',\n  ',
     })
   }
 }

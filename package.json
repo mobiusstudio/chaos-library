@@ -1,6 +1,6 @@
 {
   "name": "chaos-library",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "base schema class & type map for Ymir",
   "main": "lib/index.js",
   "scripts": {
