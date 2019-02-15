@@ -37,7 +37,7 @@ describe('========== String ==========', () => {
       str: {
         sql: 'varchar',
         jot: 'joi.string().min(6)',
-        swt: 'type: \'string\',\nminLength: 6',
+        swt: 'type: \'string\',\n  minLength: 6',
       },
     })
   })
@@ -47,7 +47,7 @@ describe('========== String ==========', () => {
       str: {
         sql: 'varchar',
         jot: 'joi.string().email()',
-        swt: 'type: \'string\',\nformat: \'email\'',
+        swt: 'type: \'string\',\n  format: \'email\'',
       },
     })
   })

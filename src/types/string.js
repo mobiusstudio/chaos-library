@@ -31,7 +31,7 @@ export const string = {
     sql: ({ req, def }) => new Sql('varchar').tostring({ req, def }),
     jot: ({ req, def }) => new Jot('joi.string().min(6)').tostring({ req, def }),
     joi: ({ req, def }) => new Joi(joi.string().min(6)).torule({ req, def }),
-    swt: ({ req, def }) => new Swt(`type: 'string',\nminLength: 6`).tostring({ req, def }),
+    swt: ({ req, def }) => new Swt(`type: 'string',\n  minLength: 6`).tostring({ req, def }),
     swg: obj => new Swg({ type: 'string', minLength: 6 }).toinstance(obj),
   },
 
@@ -39,7 +39,7 @@ export const string = {
     sql: ({ req, def }) => new Sql('varchar').tostring({ req, def }),
     jot: ({ req, def }) => new Jot('joi.string().email()').tostring({ req, def }),
     joi: ({ req, def }) => new Joi(joi.string().email()).torule({ req, def }),
-    swt: ({ req, def }) => new Swt(`type: 'string',\nformat: 'email'`).tostring({ req, def }),
+    swt: ({ req, def }) => new Swt(`type: 'string',\n  format: 'email'`).tostring({ req, def }),
     swg: obj => new Swg({ type: 'string', format: 'email' }).toinstance(obj),
   },
 }

@@ -17,7 +17,7 @@ describe('========== Number ==========', () => {
       str: {
         sql: 'integer',
         jot: 'joi.number().integer()',
-        swt: 'type: \'integer\',\nformat: \'int32\'',
+        swt: 'type: \'integer\',\n  format: \'int32\'',
       },
     })
   })
@@ -27,7 +27,7 @@ describe('========== Number ==========', () => {
       str: {
         sql: 'bigint',
         jot: 'joi.number().integer()',
-        swt: 'type: \'integer\',\nformat: \'int64\'',
+        swt: 'type: \'integer\',\n  format: \'int64\'',
       },
     })
   })
@@ -37,7 +37,7 @@ describe('========== Number ==========', () => {
       str: {
         sql: 'real',
         jot: 'joi.number().precision()',
-        swt: 'type: \'number\',\nformat: \'float\'',
+        swt: 'type: \'number\',\n  format: \'float\'',
       },
     })
   })
@@ -47,7 +47,7 @@ describe('========== Number ==========', () => {
       str: {
         sql: 'double precision',
         jot: 'joi.number().precision()',
-        swt: 'type: \'number\',\nformat: \'double\'',
+        swt: 'type: \'number\',\n  format: \'double\'',
       },
     })
   })
@@ -57,7 +57,7 @@ describe('========== Number ==========', () => {
   //     str: {
   //       sql: 'numeric#numericParameters#',
   //       jot: 'joi.number().precision(#scaleValue#)',
-  //       swt: 'type: \'number\',\nformat: \'double\'',
+  //       swt: 'type: \'number\',\n  format: \'double\'',
   //     },
   //   })
   // })
@@ -67,7 +67,7 @@ describe('========== Number ==========', () => {
       str: {
         sql: 'money',
         jot: 'joi.number().precision(2)',
-        swt: 'type: \'number\',\nformat: \'double\'',
+        swt: 'type: \'number\',\n  format: \'double\'',
       },
     })
   })
@@ -77,7 +77,7 @@ describe('========== Number ==========', () => {
       str: {
         sql: 'bigint',
         jot: 'joi.date().timestamp()',
-        swt: 'type: \'integer\',\nformat: \'int64\'',
+        swt: 'type: \'integer\',\n  format: \'int64\'',
       },
     })
   })
